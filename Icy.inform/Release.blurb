@@ -1,18 +1,18 @@
 ! Blurb file created by Inform Inform 10.1.2 (build )
 
-status "/Volumes/Inform/Inform.app/Contents/Resources/Internal/HTML/CblorbModel.html" "/Users/crimson/Downloads/My Games/Untitled.inform/Build/StatusCblorb.html"
+status "/Volumes/Inform/Inform.app/Contents/Resources/Internal/HTML/CblorbModel.html" "/Users/crimson/Downloads/Inform7-Github-Backup/Inform7-Backup/Icy.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/crimson/Downloads/My Games/Untitled.inform"
-release to "/Users/crimson/Downloads/My Games/Untitled.materials/Release"
+project folder "/Users/crimson/Downloads/Inform7-Github-Backup/Inform7-Backup/Icy.inform"
+release to "/Users/crimson/Downloads/Inform7-Github-Backup/Inform7-Backup/Icy.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Icy Amnesia.gblorb"
-storyfile "/Users/crimson/Downloads/My Games/Untitled.inform/Build/output.ulx" include
-ifiction "/Users/crimson/Downloads/My Games/Untitled.inform/Metadata.iFiction" include
+storyfile "/Users/crimson/Downloads/Inform7-Github-Backup/Inform7-Backup/Icy.inform/Build/output.ulx" include
+ifiction "/Users/crimson/Downloads/Inform7-Github-Backup/Inform7-Backup/Icy.inform/Metadata.iFiction" include
 cover "/Volumes/Inform/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
 picture 1 "/Volumes/Inform/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
 

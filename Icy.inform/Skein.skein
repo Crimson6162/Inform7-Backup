@@ -10,10 +10,12 @@
 
 Icy Amnesia
 An Interactive Fiction by Ram White
-Release 1 / Serial number 250910 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 250924 / Inform 7 v10.1.2 / D
 
 ? ? ?
 You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+You can see Creaky Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -221,9 +223,20 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Abandoned House
-The house is barely holding together, barely assisting you from freezing.
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
 
-You can see Creepy Figure here.
+You can see a Creepy Figure here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -345,7 +358,67 @@ You awaken immediatly beginning to shiver yet your skin burns, a searing pain en
     </item>
     <item nodeId="node-1021">
         <command xml:space="preserve">Survey</command>
-        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1040"></child>
+        </children>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+You froze to death.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 250923 / Inform 7 v10.1.2 / D
+
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Abandoned House
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
+
+You can see Creepy Figure and Rickity Table (on which is Bloody Icepick) here.
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
