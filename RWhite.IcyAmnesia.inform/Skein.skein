@@ -1,0 +1,817 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1002">
+    <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Icy</command>
+        <result xml:space="preserve">
+
+
+
+Hi, Thank you for checking out my game! To help you through the experiance I have created the unique action "survey" It will help describe your surroundings and replaces the "look" action. You can use the inputs "survey, look, L" to survey. Thank you for trying my game! I hope you rage.
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 251008 / Inform 7 v10.1.2 / D
+
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body. You try to remember something but to no avail.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1071"></child>
+            <child nodeId="node-1070"></child>
+            <child nodeId="node-1064"></child>
+            <child nodeId="node-1060"></child>
+            <child nodeId="node-1034"></child>
+            <child nodeId="node-1027"></child>
+            <child nodeId="node-1025"></child>
+            <child nodeId="node-1020"></child>
+            <child nodeId="node-1019"></child>
+            <child nodeId="node-1003"></child>
+        </children>
+    </item>
+    <item nodeId="node-1003">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1018"></child>
+            <child nodeId="node-1004"></child>
+        </children>
+    </item>
+    <item nodeId="node-1004">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+You froze to death.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 250910 / Inform 7 v10.1.2 / D
+
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1006"></child>
+        </children>
+    </item>
+    <item nodeId="node-1006">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1007"></child>
+        </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Abandoned House
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
+
+You can see Creepy Figure and Rickity Table (on which is Bloody Icepick) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">examine bloody icepick</command>
+        <result xml:space="preserve">A tool used for climbing large icy surfaces, the jagged teeth of the tool are tinged in fresh blood. Perhaps it would be good for opening stuff.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+
+
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 250910 / Inform 7 v10.1.2 / D
+
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Abandoned House
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
+
+You can see Creepy Figure and Rickity Table (on which is Bloody Icepick) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1013"></child>
+        </children>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">exmaine bloody icepiuck</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">Are you sure you want to restart? </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1015"></child>
+        </children>
+    </item>
+    <item nodeId="node-1015">
+        <command xml:space="preserve">yes</command>
+        <result xml:space="preserve">
+
+
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 250910 / Inform 7 v10.1.2 / D
+
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1016"></child>
+        </children>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1017"></child>
+        </children>
+    </item>
+    <item nodeId="node-1017">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+You froze to death.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1018">
+        <command xml:space="preserve">Survey</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1019">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Gruesome Tree
+You approach the distant shape of a tree and the closer you get the more you notice the gruesome sight layed out before you. The dead tree is rought with maggots, flies, and roaches which happily gorge on the bloated hanging bodies strung along it's branches. Rotten blood still drips from their bodies and stains the once lovely snow and more beatiful shade of crimson... Wait what are you thinking? This is disgusting! But... You can't help but feel and attraction towards the tree... Yes... It's such a beautiful thing... You so beautiful you stop feeling cold. You should join them on the tree... Become part of the symphony of death...
+
+You die happily as you join them upon the tree, now and forever part of the symphony of death.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1020">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you follow the huminoid tracks a Abandoned House comes into view, It's amazing how it somehow still stands. But you don't have time to gauk with your skin visibly turning blue, you rush towards the house. Once you step foot inside the eroded huts door slams shut. Panicked you try to peel the door open but try as you might it won't budge.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1024"></child>
+            <child nodeId="node-1023"></child>
+            <child nodeId="node-1021"></child>
+        </children>
+    </item>
+    <item nodeId="node-1021">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1022"></child>
+        </children>
+    </item>
+    <item nodeId="node-1022">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Abandoned House
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
+
+You can see Hidden Hatch and a Creepy Figure here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1024">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Abandoned House
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
+
+You can see Hidden Hatch and a Creepy Figure here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1025">
+        <command xml:space="preserve">look around</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1026"></child>
+        </children>
+    </item>
+    <item nodeId="node-1026">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1027">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body, looking around frantically.You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The you see the distant shape of a tree south of you, east you see a small cave, West you see nothing. North leads a trail of footprints of something barefoot and huminoid, as you see the tracks your skin sears from the freezing winds reminding you of the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1028"></child>
+        </children>
+    </item>
+    <item nodeId="node-1028">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1029"></child>
+        </children>
+    </item>
+    <item nodeId="node-1029">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1030"></child>
+        </children>
+    </item>
+    <item nodeId="node-1030">
+        <command xml:space="preserve">room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1031"></child>
+        </children>
+    </item>
+    <item nodeId="node-1031">
+        <command xml:space="preserve">examine ???</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1032"></child>
+        </children>
+    </item>
+    <item nodeId="node-1032">
+        <command xml:space="preserve">examine room ???</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1033"></child>
+        </children>
+    </item>
+    <item nodeId="node-1033">
+        <command xml:space="preserve">describe room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1034">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">looking around frantically you can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. Then you see the distant shape of a tree south of you, east of you a small cave, and North a trail of footprints something barefoot and huminoid. As you see the tracks your skin sears from the freezing winds reminding you of the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1059"></child>
+            <child nodeId="node-1040"></child>
+            <child nodeId="node-1035"></child>
+        </children>
+    </item>
+    <item nodeId="node-1035">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you follow the huminoid tracks a Abandoned House comes into view, It's amazing how it somehow still stands. But you don't have time to gauk with your skin visibly turning blue, you rush towards the house. Once you step foot inside the eroded huts door slams shut. Panicked you try to peel the door open but try as you might it won't budge.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1036"></child>
+        </children>
+    </item>
+    <item nodeId="node-1036">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1037"></child>
+        </children>
+    </item>
+    <item nodeId="node-1037">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1038"></child>
+        </children>
+    </item>
+    <item nodeId="node-1038">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1039"></child>
+        </children>
+    </item>
+    <item nodeId="node-1039">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1040">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+Your heart was claimed by frostbite.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1041"></child>
+        </children>
+    </item>
+    <item nodeId="node-1041">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+Hi, Thank you for checking out my game! To help you through the experiance I have created the unique action "survey" It will help describe your surroundings and replaces the "look" action. You can use the inputs "survey, look, L" to survey. Thank you for trying my game! I hope you rage.
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 251001 / Inform 7 v10.1.2 / D
+
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body. You try to remember something but to no availe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1042"></child>
+        </children>
+    </item>
+    <item nodeId="node-1042">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1043"></child>
+        </children>
+    </item>
+    <item nodeId="node-1043">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You can't go that way.
+
+Your heart was claimed by frostbite.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1044"></child>
+        </children>
+    </item>
+    <item nodeId="node-1044">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+Hi, Thank you for checking out my game! To help you through the experiance I have created the unique action "survey" It will help describe your surroundings and replaces the "look" action. You can use the inputs "survey, look, L" to survey. Thank you for trying my game! I hope you rage.
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 251001 / Inform 7 v10.1.2 / D
+
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body. You try to remember something but to no availe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1045"></child>
+        </children>
+    </item>
+    <item nodeId="node-1045">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you follow the huminoid tracks a Abandoned House comes into view, It's amazing how it somehow still stands. But you don't have time to gauk with your skin visibly turning blue, you rush towards the house. Once you step foot inside the eroded huts door slams shut. Panicked you try to peel the door open but try as you might it won't budge.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1046"></child>
+        </children>
+    </item>
+    <item nodeId="node-1046">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">The house is barely holding together and visibly swaying, The wind whistle is deafening. In the corner of your eye you catch movement, hunched in the corner subtly rocking in tune with the huts sway is a Creepy Figure. Beneath you is a messy rug
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1047"></child>
+        </children>
+    </item>
+    <item nodeId="node-1047">
+        <command xml:space="preserve">speak to creepy figure</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1048"></child>
+        </children>
+    </item>
+    <item nodeId="node-1048">
+        <command xml:space="preserve">talk</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1049"></child>
+        </children>
+    </item>
+    <item nodeId="node-1049">
+        <command xml:space="preserve">speak</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1050"></child>
+        </children>
+    </item>
+    <item nodeId="node-1050">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1051"></child>
+        </children>
+    </item>
+    <item nodeId="node-1051">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">The house is barely holding together and visibly swaying, The wind whistle is deafening. In the corner of your eye you catch movement, hunched in the corner subtly rocking in tune with the huts sway is a Creepy Figure. Beneath you is a messy rug
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1052"></child>
+        </children>
+    </item>
+    <item nodeId="node-1052">
+        <command xml:space="preserve">kick door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1053"></child>
+        </children>
+    </item>
+    <item nodeId="node-1053">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">The house is barely holding together and visibly swaying, The wind whistle is deafening. In the corner of your eye you catch movement, hunched in the corner subtly rocking in tune with the huts sway is a Creepy Figure. Beneath you is a messy rug
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1054"></child>
+        </children>
+    </item>
+    <item nodeId="node-1054">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+Hi, Thank you for checking out my game! To help you through the experiance I have created the unique action "survey" It will help describe your surroundings and replaces the "look" action. You can use the inputs "survey, look, L" to survey. Thank you for trying my game! I hope you rage.
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 251001 / Inform 7 v10.1.2 / D
+
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body. You try to remember something but to no availe.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1055"></child>
+        </children>
+    </item>
+    <item nodeId="node-1055">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">As you follow the huminoid tracks a Abandoned House comes into view, It's amazing how it somehow still stands. But you don't have time to gauk with your skin visibly turning blue, you rush towards the house. Once you step foot inside the eroded huts door slams shut. Panicked you try to peel the door open but try as you might it won't budge.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1056"></child>
+        </children>
+    </item>
+    <item nodeId="node-1056">
+        <command xml:space="preserve">kick door</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1057"></child>
+        </children>
+    </item>
+    <item nodeId="node-1057">
+        <command xml:space="preserve">open hatch door</command>
+        <result xml:space="preserve">I only understood you as far as wanting to open Hidden Hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1058"></child>
+        </children>
+    </item>
+    <item nodeId="node-1058">
+        <command xml:space="preserve">go to abandoned hut</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1059">
+        <command xml:space="preserve">L</command>
+        <result xml:space="preserve">? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body, looking around frantically you see the distant shape of a tree south of you and east you see a small cave.
+
+Your heart was claimed by frostbite.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1060">
+        <command xml:space="preserve">description</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1061"></child>
+        </children>
+    </item>
+    <item nodeId="node-1061">
+        <command xml:space="preserve">examine</command>
+        <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1062"></child>
+        </children>
+    </item>
+    <item nodeId="node-1062">
+        <command xml:space="preserve">room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1063"></child>
+        </children>
+    </item>
+    <item nodeId="node-1063">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1064">
+        <command xml:space="preserve">Survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints of something barefoot and huminoid leading north, as you see the tracks your skin sears from the freezing winds reminding you of the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1069"></child>
+            <child nodeId="node-1065"></child>
+        </children>
+    </item>
+    <item nodeId="node-1065">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+You froze to death.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1066"></child>
+        </children>
+    </item>
+    <item nodeId="node-1066">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+
+Icy Amnesia
+An Interactive Fiction by Ram White
+Release 1 / Serial number 250923 / Inform 7 v10.1.2 / D
+
+? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1067"></child>
+        </children>
+    </item>
+    <item nodeId="node-1067">
+        <command xml:space="preserve">survey</command>
+        <result xml:space="preserve">You can only describe your surroundings as blinding, barely a visible landscape coated in screaming winds. The only thing you can see is foot prints leading north, as you see the tracks your skin sears from the freezing winds reminding you the danger your in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1068"></child>
+        </children>
+    </item>
+    <item nodeId="node-1068">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Abandoned House
+The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
+
+You can see Creepy Figure and Rickity Table (on which is Bloody Icepick) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1069">
+        <command xml:space="preserve">Look</command>
+        <result xml:space="preserve">? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body, looking around frantically you see the distant shape of a tree south of you and east you see a small cave.
+
+Your heart was claimed by frostbite.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1070">
+        <command xml:space="preserve">Look</command>
+        <result xml:space="preserve">? ? ?
+You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body, looking around frantically you see the distant shape of a tree south of you and east you see a small cave.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
