@@ -247,17 +247,179 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1024"></child>
+        <children><child nodeId="node-1121"></child>
+            <child nodeId="node-1024"></child>
+            <child nodeId="node-1106"></child>
             <child nodeId="node-1023"></child>
             <child nodeId="node-1021"></child>
+            <child nodeId="node-1103"></child>
+            <child nodeId="node-1140"></child>
         </children>
+    </item>
+    <item nodeId="node-1140">
+        <command xml:space="preserve">take icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1141"></child>
+        </children>
+    </item>
+    <item nodeId="node-1141">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1142"></child>
+        </children>
+    </item>
+    <item nodeId="node-1142">
+        <command xml:space="preserve">unlock</command>
+        <result xml:space="preserve">(Bloody Icepick with Bloody Icepick)
+That doesn't seem to be something you can unlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1143"></child>
+        </children>
+    </item>
+    <item nodeId="node-1143">
+        <command xml:space="preserve">unlock creaky door</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+You unlock Creaky Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1144"></child>
+        </children>
+    </item>
+    <item nodeId="node-1144">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+You decide to go back out into the snowstorm for some reason, but the tracks you followed to get hear have been covered up. Though you decide what ever happens out here is better than dealing with that... Monster.
+
+You got lost with no sense of direction and froze to death.
+
+? ? ?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">take bloody icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+            <child nodeId="node-1113"></child>
+        </children>
+    </item>
+    <item nodeId="node-1113">
+        <command xml:space="preserve">unlock wooden crate</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+That doesn't seem to be something you can unlock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">open wooden crate</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1021">
         <command xml:space="preserve">survey</command>
-        <result xml:space="preserve">&gt;</result>
+        <result xml:space="preserve">The house is barely holding together and visibly swaying, The wind whistle is deafening. In the corner of your eye you catch movement, hunched in the corner subtly rocking in tune with the huts sway is a Creepy Figure. Around the room you see a rickity table and a closed wooden crate, under the rickity table is a messy rug.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1022"></child>
+        <children><child nodeId="node-1099"></child>
+            <child nodeId="node-1076"></child>
+            <child nodeId="node-1022"></child>
+            <child nodeId="node-1090"></child>
         </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">take bloody icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+            <child nodeId="node-1117"></child>
+        </children>
+    </item>
+    <item nodeId="node-1117">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1118"></child>
+        </children>
+    </item>
+    <item nodeId="node-1118">
+        <command xml:space="preserve">unlock creaky door</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+You unlock Creaky Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1119"></child>
+        </children>
+    </item>
+    <item nodeId="node-1119">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+You met Tim.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">pull Rickity table</command>
+        <result xml:space="preserve">With a bit of effort you move the Rickity Table off the rug
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">pull Messy rug</command>
+        <result xml:space="preserve">You manage to pull the messy rug aside to reveal a Hatch.
+
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+You met Tim.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1022">
         <command xml:space="preserve">look</command>
@@ -269,13 +431,130 @@ You can see Hidden Hatch and a Creepy Figure here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1023">
-        <command xml:space="preserve">s</command>
-        <result xml:space="preserve">
-? ? ?
-You awaken immediatly beginning to shiver yet your skin burns, a searing pain engulfing your entire body.
+    <item nodeId="node-1076">
+        <command xml:space="preserve">examine Rickity table</command>
+        <result xml:space="preserve">On Rickity Table is Bloody Icepick.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+        </children>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">Pick up bloody icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">Pull Rickity table</command>
+        <result xml:space="preserve">You have already move the Rickity Table, it's best not to waste time
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+You met Tim.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1099">
+        <command xml:space="preserve">examine Rickity Table</command>
+        <result xml:space="preserve">The table is covered in fresh blood and a Bloody Icepick sits atop the table.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1100"></child>
+        </children>
+    </item>
+    <item nodeId="node-1100">
+        <command xml:space="preserve">take Bloody icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1101"></child>
+        </children>
+    </item>
+    <item nodeId="node-1101">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1023">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1106">
+        <command xml:space="preserve">pull Rickity table</command>
+        <result xml:space="preserve">With a bit of effort you move the Rickity Table off the rug
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1107"></child>
+        </children>
+    </item>
+    <item nodeId="node-1107">
+        <command xml:space="preserve">Pull messy rug</command>
+        <result xml:space="preserve">You manage to pull the messy rug aside to reveal a Hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1108"></child>
+        </children>
+    </item>
+    <item nodeId="node-1108">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">(first opening Hatch)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1109"></child>
+        </children>
+    </item>
+    <item nodeId="node-1109">
+        <command xml:space="preserve">take bloody icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1110"></child>
+        </children>
+    </item>
+    <item nodeId="node-1110">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">(first opening Hatch)
+It seems to be locked.
+
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+You met Tim.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1024">
@@ -284,6 +563,167 @@ You awaken immediatly beginning to shiver yet your skin burns, a searing pain en
 The house is barely holding together, assisting you not from freezing, in the corner is a Creepy Figure.
 
 You can see Hidden Hatch and a Creepy Figure here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1121">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">The house is barely holding together and visibly swaying, The wind whistle is deafening. In the corner of your eye you catch movement, hunched in the corner subtly rocking in tune with the huts sway is a Creepy Figure. Around the room you see a rickity table and a closed wooden crate, under the rickity table is a messy rug.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1147"></child>
+            <child nodeId="node-1122"></child>
+        </children>
+    </item>
+    <item nodeId="node-1122">
+        <command xml:space="preserve">take bloody icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1134"></child>
+            <child nodeId="node-1128"></child>
+            <child nodeId="node-1123"></child>
+        </children>
+    </item>
+    <item nodeId="node-1123">
+        <command xml:space="preserve">unlock creaky door</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+You unlock Creaky Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1124"></child>
+        </children>
+    </item>
+    <item nodeId="node-1124">
+        <command xml:space="preserve">open creaky door</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">pull rickity table</command>
+        <result xml:space="preserve">With a bit of effort you move the Rickity Table off the rug
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">pull messy rug</command>
+        <result xml:space="preserve">You manage to pull the messy rug aside to reveal a Hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">unlock hatch</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+You unlock Hatch.
+
+The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
+
+You met Tim.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1134">
+        <command xml:space="preserve">move table</command>
+        <result xml:space="preserve">With a bit of effort you move the Rickity Table off the rug
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1135"></child>
+        </children>
+    </item>
+    <item nodeId="node-1135">
+        <command xml:space="preserve">move rug</command>
+        <result xml:space="preserve">You manage to pull the messy rug aside to reveal a Hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1136"></child>
+        </children>
+    </item>
+    <item nodeId="node-1136">
+        <command xml:space="preserve">open hatch</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1137"></child>
+        </children>
+    </item>
+    <item nodeId="node-1137">
+        <command xml:space="preserve">unlock hatch</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+You unlock Hatch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1138"></child>
+        </children>
+    </item>
+    <item nodeId="node-1138">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">(first opening Hatch)
+
+Mysterious Tunnel
+You can see Hatch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1147">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1148"></child>
+        </children>
+    </item>
+    <item nodeId="node-1148">
+        <command xml:space="preserve">icepick</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1149"></child>
+        </children>
+    </item>
+    <item nodeId="node-1149">
+        <command xml:space="preserve">unlock creaky door</command>
+        <result xml:space="preserve">(with Bloody Icepick)
+You unlock Creaky Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1150"></child>
+        </children>
+    </item>
+    <item nodeId="node-1150">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">(first opening Creaky Door)
+You decide to go back out into the snowstorm for some reason, but the tracks you followed to get hear have been covered up. Though you decide what ever happens out here is better than dealing with that... Monster.
+
+You got lost with no sense of direction and froze to death.
+
+? ? ?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

@@ -2,15 +2,20 @@
 
 ??? is a room. 
 
+Instead of examining Rickity Table:
+	say "The table is covered in fresh blood and a Bloody Icepick sits atop the table."
+Instead of examining Wooden Crate:
+	say "On the surface it looks like a normal crate But at the corners of the crate blood leaks out."
+
 Abandoned Hut is a room. "Eventually you calm slightly and turn to examine the house."
 
 a Creepy Figure is a person in Abandoned Hut.
 
-Rickity Table is a supporter in Abandoned Hut. Rickity Table is fixed in place. Rickity Table is Scenery.
+Rickity Table is Scenery.
 
-Bloody Icepick is on Rickity Table. Bloody Icepick is Scenery.
+Bloody Icepick is on Rickity Table.
 
-Decaying Corpse is in Wooden Crate. Wooden Crate is in Abandoned Hut. Bloody Icepick unlocks Wooden Crate. Wooden Crate is a container.
+Decaying Corpse is in Wooden Crate. Wooden Crate is in Abandoned Hut. Bloody Icepick unlocks Wooden Crate. Wooden Crate is a container. Wooden crate can be unlocked.
 
 Description of Bloody Icepick is "A tool used for climbing large icy surfaces, the jagged teeth of the tool are tinged in fresh blood. Perhaps it would be good for opening stuff."
 
@@ -20,7 +25,9 @@ After opening Creaky Door, say "You decide to go back out into the snowstorm for
 
 You got lost with no sense of direction and froze to death.".
 
-After opening Creaky Door, end the story.
+After opening Creaky Door:
+	End the story.
+
 
 Survey is an action applying to nothing.
 
@@ -60,9 +67,9 @@ When Freezing ends:
 	Say "Your heart was claimed by frostbite.";
 	end the story.
 
-Creaky Door is north of ???. Abandoned Hut is north of Creaky Door. Creaky Door is a open Door. Creaky Door is not openable. Creaky Door is Scenery. Creaky Door is lockable. Bloody Icepick unlocks Creaky Door. 
+Creaky Door is north of ???. Abandoned Hut is north of Creaky Door. Creaky Door is a open Door. Creaky Door is Scenery. Creaky Door is lockable. Bloody Icepick unlocks Creaky Door. Creaky Door can be unlocked.
 
-Weeping Man is a scene. Weeping Man begins when player is in the Abandoned Hut. Weeping Man ends when player is in the Abandoned Hut for the sixth turn. 
+Weeping Man is a scene. Weeping Man begins when player is in the Abandoned Hut. Weeping Man ends when player is in the Abandoned Hut for the ninth turn. 
 
 When Weeping Man ends:
 	Say "The Creepy Figure finally stops weeping, you pause and stare at it. Holding still you attempt to control your breathing unsure of what to do and In the blink of a eye the Creepy Figure lunges at you teeth and claws bared against you.
@@ -77,7 +84,7 @@ After going through Creaky Door from ???:
 	
 Mysterious Tunnel is a room. 
 
-Hatch is Door. Abandoned Hut is above Hatch. Mysterious Tunnel is below Hatch. Hatch is lockable and locked. Bloody Icepick unlocks Hatch.
+Hatch is Door. Abandoned Hut is above Hatch. Mysterious Tunnel is below Hatch. Hatch is lockable and locked. Bloody Icepick unlocks Hatch. Hatch can be unlocked.
 
 When play begins, say "Hi, Thank you for checking out my game! To help you through the experiance I have created the unique action 'survey' It will help describe your surroundings and replaces the 'look' action. You can use the inputs 'survey, look, L' to survey. Thank you for trying my game! I hope you rage."
 
@@ -110,14 +117,24 @@ You're impaled upon jagged rocks now a tasty snack for whatever may find you.";
 		
 a Hatch can be hidden or unhidden. Hatch is hidden.
 
-[instead of pulling or pushing Messy Rug:
+Messy Rug is a supporter in Abandoned Hut.
+
+Rickity Table is on Messy Rug.
+
+instead of pulling or pushing Messy Rug:
 	if Rickity Table is on Messy Rug:
 		say "You attempt to shift the rug and table out the way, but the Rickity Table is heavier than 		it looks and your unable to move both at once.";
-	otherwise: say "You manage to pull the messy rug aside to reveal a Hatch."; now Hatch is unhidden.
+	otherwise:
+		say "You manage to pull the messy rug aside to reveal a Hatch.";
+		now Hatch is unhidden.
+		
 instead of pulling or pushing Rickity Table:
 	If Rickity Table is not on Messy Rug:
-		say "You have already move the Rickity Table, it's best not to waste time"
-	otherwise: say "With a bit of effort you move the Rickity Table off the rug"; now Rickity Table is in Abandoned Hut; now Rickity Table is fixed in place.]
+		say "You have already moved the Rickity Table, it's best not to waste time";
+	otherwise:
+		say "With a bit of effort you move the Rickity Table off the rug";
+		now Rickity Table is in Abandoned Hut;
+		now Rickity Table is fixed in place.
 	
 Dark Tunnel is a room. Dark Tunnel is west of Mysterious Tunnel.
 Death Pit 1 is a room. Death Pit 1 is east of Mysterious Tunnel.
